@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İş Başvuru Formu</title>
+</head>
+<body>
+    <h1><b>İş Başvuru Formu</b></h1>
+    <form>
+        <fieldset>
+            <legend>Kişisel Bilgiler</legend>
+            <label>Ad Soyad</label><br><input type="text" placeholder="Ad Soyad Giriniz"/><br></p>
+            <p><label>Doğum Tarihi</label><br><input type="date"><br></p>
+            <label>Cinsiyet</label><br><input type="radio">Erkek
+            <input type="radio">Kadın
+        </fieldset>
+        <fieldset>
+            <legend>İletişim Bilgileri</legend>
+             <p><label>Eposta</label><br><input type="text" placeholder="Eposta giriniz"><br></p>
+             <p><label>Telefon</label><br><input type="text"placeholder="0555 555 55 55"><br></p>
+             <label>Şehir</label>
+             <select name="iller" size="1">
+                <option value="plaka54">Sakarya</option>
+                <option value="plaka06">Ankara</option>
+                <option value="plaka34">İstanbul</option>
+                <option value="plaka61">Trabzon</option>
+                <option value="Plaka01">Adana</option>
+                <option value="plaka04">Ağrı</option>
+                <option value="plaka55">Samsun</option>
+                </select><br>
+                <p><label>İlçe</label><br><input type="text"><br></p>
+                <label>Adres</label><br>
+                <textarea rows="5" cols="30"></textarea><br>
+               <p> <label>Web Sitesi</label><input type="text"placeholder="Web site Adresi URL girin"></p>
+        </fieldset>
+        <fieldset>
+            <legend>Kariyer Bilgileri</legend>
+           <p><label>Başvurduğunuz Birim</label><br><input type="text"placeholder="Satış/Pazarlama"><br></p>
+            <p><label>İş Tecrübesi</label><br><input type="text"> yıl <br></p>
+            <p><label>Yabancı Dil Seviyesi</label> <input type="range"min="0"max="50"><br></p>
+        </fieldset>
+        <fieldset>
+            <legend>Diğer Bilgiler</legend>
+            <p><label>Hobiler</label><br><input type="checkbox">Kitap <input type="checkbox"> Müzik <input type="checkbox"> Sinema</p>
+            <p><label>Favori Renk</label><input type="color"><br></p>
+            <p><label>Fotoğraf Yükle</label><br><input type="file"></p>
+        </fieldset>
+    </form>
+    <button type="submit">Okudum Anladım</button>
+    <button type="submit">Tamam</button>
+    <button type="reset">Temizle</button>
+</body>
+</html>
